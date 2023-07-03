@@ -24,10 +24,10 @@ const config = {
     phone: '',
     email: 'yusril@sgbteam.id',
   },
-  resume: {
-    fileUrl:
-      '', // Empty fileUrl will hide the `Download Resume` button.
-  },
+  // resume: {
+  //   fileUrl:
+  //     '', // Empty fileUrl will hide the `Download Resume` button.
+  // },
   skills: [
     'Still Learning',
   ],
