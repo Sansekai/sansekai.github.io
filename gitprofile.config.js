@@ -22,7 +22,7 @@ const config = {
     stackoverflow: '', // format: userid/username
     website: 'https://sansekai.github.io',
     phone: '',
-    email: 'm.yusril925@gmail.com',
+    email: 'yusril@sgbteam.id',
   },
   resume: {
     fileUrl:
