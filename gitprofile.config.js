@@ -13,21 +13,25 @@ const config = {
   social: {
     linkedin: '',
     twitter: '',
+    mastodon: '',
     facebook: 'nikkixploit',
     instagram: 'yusril.id_',
+    youtube: '', // example: 'pewdiepie'
     dribbble: '',
     behance: '',
-    medium: '',
-    dev: 'sansekai',
-    stackoverflow: '', // format: userid/username
-    website: 'https://sansekai.github.io',
+    medium: 'arifszn',
+    dev: 'arifszn',
+    stackoverflow: '', // example: '1/jeff-atwood'
+    skype: '',
+    telegram: '',
+    website: 'https://nikkixploit.com',
     phone: '',
     email: 'yusril@sgbteam.id',
   },
-  // resume: {
-  //   fileUrl:
-  //     '', // Empty fileUrl will hide the `Download Resume` button.
-  // },
+  resume: {
+    fileUrl:
+      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+  },
   skills: [
     'Still Learning',
   ],
@@ -69,11 +73,29 @@ const config = {
   //     to: '2014',
   //   },
   // ],
+
+  // To hide the `My Projects` section, keep it empty.
+  // externalProjects: [
+  //   {
+  //     title: 'Project Name',
+  //     description:
+  //       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+  //     imageUrl: 'https://via.placeholder.com/250x250',
+  //     link: 'https://example.com',
+  //   },
+  //   {
+  //     title: 'Project Name',
+  //     description:
+  //       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+  //     imageUrl: 'https://via.placeholder.com/250x250',
+  //     link: 'https://example.com',
+  //   },
+  // ],
   // Display blog posts from your medium or dev account. (Optional)
   blog: {
     source: '', // medium | dev
     username: '', // to hide blog section, keep it empty
-    limit: 3, // How many posts to display. Max is 10.
+    limit: 2, // How many posts to display. Max is 10.
   },
   googleAnalytics: {
     id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
@@ -142,6 +164,13 @@ const config = {
       '--rounded-btn': '3rem',
     },
   },
+
+  // Optional Footer. Supports plain text or HTML.
+  footer: `Made with <a 
+      class="text-primary" href="https://github.com/arifszn/gitprofile"
+      target="_blank"
+      rel="noreferrer"
+    >GitProfile</a> and ❤️`,
 };
 
 export default config;
