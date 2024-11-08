@@ -50,7 +50,7 @@
     "date-fns": "^4.1.0",
     "eslint": "^8.11.0",
     "eslint-config-prettier": "^9.0.0",
-    "eslint-plugin-prettier": "^5.0.0",
+    "eslint-plugin-prettier": "^5.2.1",
     "eslint-plugin-react": "^7.34.2",
     "postcss": "^8.4.47",
     "prettier": "^3.2.5",
