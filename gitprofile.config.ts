@@ -57,7 +57,7 @@ const CONFIG = {
     imageURL: '',
   },
   social: {
-    linkedin: '',
+    linkedin: 'yusrilid',
     twitter: '',
     mastodon: '',
     researchGate: '',
@@ -82,9 +82,7 @@ const CONFIG = {
   //   fileUrl:
   //     'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
   // },
-  skills: [
-    'Still Learning',
-  ],
+  skills: ['Still Learning'],
   // experiences: [
   //   {
   //     company: 'Company Name',
