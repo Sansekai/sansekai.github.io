@@ -61,7 +61,7 @@ const CONFIG = {
     twitter: '',
     mastodon: '',
     researchGate: '',
-    facebook: 'nikkixploit',
+    facebook: 'sansekai.id',
     instagram: 'yusril.id_',
     reddit: '',
     threads: '',
@@ -74,7 +74,7 @@ const CONFIG = {
     stackoverflow: '', // example: '1/jeff-atwood'
     skype: '',
     telegram: '',
-    website: 'https://www.nikkixploit.com',
+    website: '',
     phone: '',
     email: '',
   },
