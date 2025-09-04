@@ -76,12 +76,12 @@ const CONFIG = {
     telegram: '',
     website: '',
     phone: '',
-    email: '',
+    email: 'sansekai.id@gmail.com',
   },
-  // resume: {
-  //   fileUrl:
-  //     'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
-  // },
+  resume: {
+    fileUrl:
+      'https://drive.google.com/drive/folders/1v7BeMtLEBGO4eC6DmkyZJljecWYHZ0oA?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
+  },
   skills: ['Still Learning'],
   // experiences: [
   //   {
@@ -107,20 +107,20 @@ const CONFIG = {
   //     link: 'https://example.com',
   //   },
   // ],
-  // educations: [
-  //   {
-  //     institution: 'Institution Name',
-  //     degree: 'Degree',
-  //     from: '2015',
-  //     to: '2019',
-  //   },
-  //   {
-  //     institution: 'Institution Name',
-  //     degree: 'Degree',
-  //     from: '2012',
-  //     to: '2014',
-  //   },
-  // ],
+  educations: [
+    {
+      institution: 'Universitas Megarezky',
+      degree: 'S1 Sistem Informasi',
+      from: '2021',
+      to: '2025',
+    },
+    {
+      institution: 'SMK Tamansiswa 2 Jakarta',
+      degree: 'Rekayasa Perangkat Lunak',
+      from: '2018',
+      to: '2021',
+    },
+  ],
   // publications: [
   //   {
   //     title: 'Publication Title',
