@@ -17,10 +17,10 @@ const CONFIG = {
       mode: 'automatic', // Mode can be: 'automatic' or 'manual'
       automatic: {
         sortBy: 'stars', // Sort projects by 'stars' or 'updated'
-        limit: 10, // How many projects to display.
+        limit: 6, // How many projects to display.
         exclude: {
           forks: false, // Forked projects will not be displayed if set to true.
-          projects: [], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
+          projects: ['sansekai/tembak-three'], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
         },
       },
       // manual: {
@@ -28,31 +28,33 @@ const CONFIG = {
       //   projects: ['arifszn/gitprofile', 'arifszn/pandora'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       // },
     },
-    // external: {
-    //   header: 'My Projects',
-    //   // To hide the `External Projects` section, keep it empty.
-    //   projects: [
-    //     {
-    //       title: 'Project Name',
-    //       description:
-    //         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-    //       imageUrl:
-    //         'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-    //       link: 'https://example.com',
-    //     },
-    //     {
-    //       title: 'Project Name',
-    //       description:
-    //         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-    //       imageUrl:
-    //         'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-    //       link: 'https://example.com',
-    //     },
-    //   ],
-    // },
+    external: {
+      header: 'My Projects',
+      // To hide the `External Projects` section, keep it empty.
+      projects: [
+        {
+          title: 'WhatsApp Chatbot Automation',
+          description:
+            `Mengembangkan agen chatbot cerdas berbasis Node.js menggunakan library Baileys yang terintegrasi penuh dengan
+ekosistem OpenAI (ChatGPT API untuk teks dan DALL-E API untuk membuat gambar dari teks).`,
+          imageUrl:
+            './public/assets/projects1.jpeg',
+          link: 'https://github.com/Sansekai/Wa-OpenAI',
+        },
+        {
+          title: 'SΛNSΞKΛI API',
+          description:
+            `Membangun dan mengelola layanan REST API terpusat yang menyediakan berbagai endpoint utilitas. Dokumentasi API
+disusun secara interaktif untuk memudahkan integrasi pihak ketiga, berjalan di atas arsitektur Node.js yang efisien.`,
+          imageUrl:
+            './public/assets/projects2.png',
+          link: 'https://api.sansekai.my.id',
+        },
+      ],
+    },
   },
   seo: {
-    title: 'Portofolio of Yusril',
+    title: 'Portofolio Muh Yusril',
     description: '',
     imageURL: '',
   },
@@ -80,25 +82,25 @@ const CONFIG = {
   },
   resume: {
     fileUrl:
-      'https://drive.google.com/drive/folders/1v7BeMtLEBGO4eC6DmkyZJljecWYHZ0oA?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
+      './public/assets/Yusril-CV.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
-  skills: ['Still Learning'],
-  // experiences: [
-  //   {
-  //     company: 'Company Name',
-  //     position: 'Position',
-  //     from: 'September 2021',
-  //     to: 'Present',
-  //     companyLink: 'https://example.com',
-  //   },
-  //   {
-  //     company: 'Company Name',
-  //     position: 'Position',
-  //     from: 'July 2019',
-  //     to: 'August 2021',
-  //     companyLink: 'https://example.com',
-  //   },
-  // ],
+  skills: ['JavaScript','Node.js','Git','Next.js','Express.js'],
+  experiences: [
+    // {
+    //   company: 'Company Name',
+    //   position: 'Position',
+    //   from: 'September 2021',
+    //   to: 'Present',
+    //   companyLink: 'https://example.com',
+    // },
+    {
+      company: ' Nikkixploit.com (Media Teknologi Independen)',
+      position: 'Founder & Lead Content Writer',
+      from: '2020',
+      to: '2025',
+      companyLink: 'https://nikkixploit.com',
+    },
+  ],
   // certifications: [
   //   {
   //     name: 'Lorem ipsum',
@@ -156,11 +158,11 @@ const CONFIG = {
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'valentine',
+    defaultTheme: 'business',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
-    disableSwitch: false,
+    disableSwitch: true,
 
     // Should use the prefers-color-scheme media-query,
     // using user system preferences, instead of the hardcoded defaultTheme
@@ -220,10 +222,10 @@ const CONFIG = {
 
   // Optional Footer. Supports plain text or HTML.
   footer: `Made with <a 
-      class="text-primary" href="https://github.com/arifszn/gitprofile"
+      class="text-primary" href="https://github.com/Sansekai"
       target="_blank"
       rel="noreferrer"
-    >GitProfile</a> and ❤️`,
+    >Yusril</a> and ❤️`,
 
   enablePWA: true,
 };

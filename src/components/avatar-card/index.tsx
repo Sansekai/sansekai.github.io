@@ -70,7 +70,7 @@ const AvatarCard: React.FC<AvatarCardProps> = ({
               </span>
             )}
           </h5>
-          <div className="mt-3 text-base-content text-opacity-60 font-mono">
+          <div className="mt-3 text-base-content text-opacity-60" style={{ whiteSpace: 'pre-line' }}>
             {loading || !profile
               ? skeleton({ widthCls: 'w-48', heightCls: 'h-5' })
               : profile.bio}
