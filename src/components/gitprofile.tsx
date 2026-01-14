@@ -109,7 +109,7 @@ const GitProfile = ({ config }: { config: Config }) => {
       setProfile({
         avatar: data.avatar_url,
         name: 'Muh Yusril', //data.name || ' ',
-        bio: `Saya bersemangat belajar mengenai perkembangan teknologi baru, terutama AI, dan mengimplementasikannya ke dalam project.\nPassion saya meliputi programming, teknologi modern, BOT Automation Tools, pengembangan backend, dan content writing.`, //data.bio || '',
+        bio: `Saya bersemangat belajar mengenai perkembangan teknologi baru, terutama AI, dan mengimplementasikannya ke dalam project.\nPassion saya meliputi programming, teknologi modern, bot automation tools, pengembangan backend, dan content writing.`, //data.bio || '',
         location: data.location || '',
         company: data.company || '',
       });
