@@ -82,7 +82,7 @@ disusun secara interaktif untuk memudahkan integrasi pihak ketiga, berjalan di a
   },
   resume: {
     fileUrl:
-      'https://raw.githubusercontent.com/Sansekai/sansekai.github.io/refs/heads/main/public/assets/Yusril-CV.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      'https://drive.google.com/drive/folders/1v7BeMtLEBGO4eC6DmkyZJljecWYHZ0oA?usp=drive_link', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: ['JavaScript','Node.js','Git','Next.js','Express.js'],
   experiences: [
