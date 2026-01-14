@@ -38,7 +38,7 @@ const CONFIG = {
             `Mengembangkan agen chatbot cerdas berbasis Node.js menggunakan library Baileys yang terintegrasi penuh dengan
 ekosistem OpenAI (ChatGPT API untuk teks dan DALL-E API untuk membuat gambar dari teks).`,
           imageUrl:
-            './public/assets/projects1.jpeg',
+            'https://raw.githubusercontent.com/Sansekai/sansekai.github.io/refs/heads/main/public/assets/projects1.webp',
           link: 'https://github.com/Sansekai/Wa-OpenAI',
         },
         {
@@ -47,7 +47,7 @@ ekosistem OpenAI (ChatGPT API untuk teks dan DALL-E API untuk membuat gambar dar
             `Membangun dan mengelola layanan REST API terpusat yang menyediakan berbagai endpoint utilitas. Dokumentasi API
 disusun secara interaktif untuk memudahkan integrasi pihak ketiga, berjalan di atas arsitektur Node.js yang efisien.`,
           imageUrl:
-            './public/assets/projects2.png',
+            'https://raw.githubusercontent.com/Sansekai/sansekai.github.io/refs/heads/main/public/assets/projects2.webp',
           link: 'https://api.sansekai.my.id',
         },
       ],
@@ -82,7 +82,7 @@ disusun secara interaktif untuk memudahkan integrasi pihak ketiga, berjalan di a
   },
   resume: {
     fileUrl:
-      './public/assets/Yusril-CV.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      'https://raw.githubusercontent.com/Sansekai/sansekai.github.io/refs/heads/main/public/assets/Yusril-CV.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: ['JavaScript','Node.js','Git','Next.js','Express.js'],
   experiences: [
